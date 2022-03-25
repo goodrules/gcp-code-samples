@@ -1,0 +1,17 @@
+Demo steps / requirements
+Fake data stream
+- GCS bucket for files -> gs://mg-ce-demos-bucket/water_data_stream_demo/
+- schema json file for fake data -> gs://mg-ce-demos-bucket/water_data_stream_demo/df_demo_stream_schema.json
+- pub/sub topic -> projects/mg-ce-demos/topics/smart-water
+- pub/sub subscription -> projects/mg-ce-demos/subscriptions/smart-water-sub
+- BQ table -> mg-ce-demos:smart_water_demo.smart_water_demo_data
+- BQ schema -> gs://mg-ce-demos-bucket/water_data_stream_demo/df_demo_stream_bq_schema.json
+- UDF for BQ upload -> gs://mg-ce-demos-bucket/water_data_stream_demo/df_demo_stream_udf.js
+- dataflow template for moving data to BQ 
+- dataflow template for streaming
+ 
+Steps:
+1) data stream to pub/sub topic to GCS
+2) dataflow job to move JSON file from GCS to BQ table
+3) query BQ table to display conversion
+4) create quick dashboard in data studio

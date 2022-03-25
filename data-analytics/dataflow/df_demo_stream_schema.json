@@ -1,0 +1,1 @@
+{"eventId": "{{integer(1000000,9999999)}}","deviceId": "{{integer(10,99)}}","eventTime": "{{put("date", date("yyyy-MM-dd HH:mm:ss"))}}","city": "{{city()}}","temp": {{float(30, 100)}},"flowrate": {{float(0, 20)}}}
