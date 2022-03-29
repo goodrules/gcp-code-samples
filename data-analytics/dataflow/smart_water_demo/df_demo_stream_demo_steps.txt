@@ -12,6 +12,8 @@ Fake data stream
  
 Steps:
 1) data stream to pub/sub topic to GCS
-2) dataflow job to move JSON file from GCS to BQ table
-3) query BQ table to display conversion
+2a) dataflow job to stream pub/sub messages into BQ
+2b) dataflow job to stream pub/sub messages to GCS (5 min windows)
+3) dataflow job to move JSON files from GCS to BQ table
+3) query BQ table to display data
 4) create quick dashboard in data studio
