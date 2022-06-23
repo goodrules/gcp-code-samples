@@ -1,0 +1,7 @@
+users,movies,timestamp
+"alice","movie_01",2021-04-15T08:28:14Z
+"bob","movie_02",2021-04-15T08:28:14Z
+"dav","movie_03",2021-04-15T08:28:14Z
+"eve","movie_04",2021-04-15T08:28:14Z
+"alice","movie_03",2020-02-14T09:35:15Z
+"bob","movie_04",2020-02-14T09:35:15Z
