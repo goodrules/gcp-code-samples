@@ -1,0 +1,72 @@
+specification_title,specification_number,submittal_title,submittal_details,submittal_type,submittal_part
+CAST-IN-PLACE CONCRETE,03 30 00,Product Data,"Submit manufacturer's product data with application and installation instructions for proprietary materials and items, including admixtures, patching compounds, epoxies, grouts, waterstops, joint systems, curing compounds, dry-shake finish materials, hardeners, sealers, joint fillers, and others as requested by Architect/Engineer.",Product Data,1.5-A
+CAST-IN-PLACE CONCRETE,03 30 00,Construction Joints,"Submit drawings of proposed construction joint locations in concrete for slab-on-grade, mat foundations, structural floors, roofs and walls. Submit any additional or changed reinforcing that is required at construction joints that differs from that shown on the drawings.",Shop Drawings,1.5-B
+CAST-IN-PLACE CONCRETE,03 30 00,"Openings, Sleeves, and Cores","Submit drawings of all openings to be formed, sleeved, cored, or sawcut in cast-in-place elements. Drawings shall indicate size and location of openings, sleeves, or cores.",Shop Drawings,1.5-B
+CAST-IN-PLACE CONCRETE,03 30 00,Penetrations in Beams and Joists,"Submit drawings locating all horizontal and vertical penetrations in beams and joists. Drawings shall indicate location, size, orientation, and type of penetrations.",Shop Drawings,1.5-B
+CAST-IN-PLACE CONCRETE,03 30 00,Embedded Items,"Submit drawings showing all items to be embedded in concrete elements, including plates, angles, bolts, and any non-structural items, such as conduit. Drawings shall indicate location, size, orientation, and type of embedded item.",Shop Drawings,1.5-B
+CAST-IN-PLACE CONCRETE,03 30 00,Anchor Rods,Submit drawings showing layout and details for steel templates used for placing anchor rods.,Shop Drawings,1.5-B
+CAST-IN-PLACE CONCRETE,03 30 00,Samples,"Submit samples of materials specified if requested by Architect/Engineer, including names, sources, and descriptions.",Samples,1.5-C
+CAST-IN-PLACE CONCRETE,03 30 00,Material and Mill Certificates,Provide material and mill certificates as specified herein and in the Testing Laboratory section of the Specifications. The Manufacturer and Contractor shall sign the material and mill certificates certifying that each material item complies with specified requirements. Provide certification from admixture manufacturers that chloride ion content complies with specified requirements.,Test Reports,1.5-D
+CAST-IN-PLACE CONCRETE,03 30 00,Design Mixtures,Submit for each concrete mixture as specified herein.,Mix Designs,1.5-E
+CAST-IN-PLACE CONCRETE,03 30 00,Surveys,Submit report certifying that all anchor rods and reinforcing dowels into columns above are in their proper location prior to placing of concrete.,Test Reports,1.5-F
+CAST-IN-PLACE CONCRETE,03 30 00,Exhibit Hall Slabs,"Submit proposed pour sequence and procedure for protecting concrete during placement, finishing, and curing.",Other,1.5-G
+CAST-IN-PLACE CONCRETE,03 30 00,Architectural Concrete,"Architectural concrete is noted within the drawings. Submit proposed placement schedule and procedure for placement, finishing and curing architectural concrete meeting the requirements of the Specifications.",Other,1.5-G
+CAST-IN-PLACE CONCRETE,03 30 00,Qualification Statements,Submit certifications for adhesive anchor installers.,Other,1.5-H
+CAST-IN-PLACE CONCRETE,03 30 00,Minutes of Preinstallation Meetings,Submit for review.,Other,1.6-I
+CAST-IN-PLACE CONCRETE,03 30 00,Concrete Design Mixtures,Review the submitted design mixtures for conformance to the specifications and for suitability for use in the project.,Mix Designs,1.6-A
+CAST-IN-PLACE CONCRETE,03 30 00,Preinstallation Meetings,Attend the preinstallation meetings referenced above.,Other,1.6-A
+CAST-IN-PLACE CONCRETE,03 30 00,Review adhesive anchor installer qualifications by certification,Obtain qualification certificates.,Other,1.6-A
+CAST-IN-PLACE CONCRETE,03 30 00,Survey for Anchor Rods and Reinforcing Steel Dowels,"The surveyed locations of such elements shall be submitted to the Architect/Engineer for record, if requested.",Other,1.6-C
+CAST-IN-PLACE CONCRETE,03 30 00,Architectural Concrete Column Encasement,Provide field mock-up for Design Professional approval. Architectural exposed concrete column mock-ups should be cast in a geometry representative of design configurations and cast vertically to a minimum height of 6 feet.,Other,1.6-E
+CAST-IN-PLACE CONCRETE,03 30 00,Exhibit Hall Slab,Provide field mock-up for Design Professional approval. Exhibit Hall slab mock-ups should be cast in a 6 foot by 6 foot panel with detailing representative of the design configuration.,Other,1.6-E
+CAST-IN-PLACE CONCRETE,03 30 00,Architectural Retaining Wall,Provide field mock-up for Design Professional approval of retaining walls with form liner. Retaining wall mock-ups should be cast in a geometry representative of design configurations and cast vertically to a minimum height of 6 feet and a minimum width of 10 feet.,Other,1.6-E
+TILING,09 30 00,Maintenance guides for Owner's use.,Maintenance guides for Owner's use.,Product Data,1.03-B.1
+TILING,09 30 00,Full range of grout colors.,Full range of grout colors.,Product Data,1.03-B.2
+TILING,09 30 00,Manufacturer's up-to-date kit containing full range of colors and patterns for tile and pavers for initial color selections.,"Manufacturer's up-to-date kit containing full range of colors and patterns for tile and pavers for initial color selections.
+a. Architect/Interior Designer will make color selections from tile manufacturer's standard colors.
+b. Architect/Interior Designer may select several colors and patterns.",Product Data,1.03-B.3
+TILING,09 30 00,Shop Drawings,"Indicate tile patterns and locations, and widths and locations of expansion, contraction, control, and isolation joints in tile substrates and finished tile surfaces.
+1. Indicate areas where cutting of tile may be required.
+2. Locate precisely each joint and crack in tile substrates by measuring. Record measurements on shop drawings and coordinate them with tile joint locations in consultation with Architect/Interior Designer.",Shop Drawings,1.03-C
+TILING,09 30 00,Samples - Ceramic Tile,Three (3) full size tiles.,Samples,1.03-D.1
+TILING,09 30 00,Samples - Sheets,Three (3) full size sheets.,Samples,1.03-D.2
+TILING,09 30 00,Samples - Porcelain Tile,Three (3) full size tiles.,Samples,1.03-D.3
+TILING,09 30 00,Master Grade Certificates,"Provide properly signed and countersigned Master Grade Certificate stating grade, type, and quantity of materials.",Other,1.03-E.1
+TILING,09 30 00,Manufacturer's Certificate,Provide properly signed manufacturer's certificate that supplied products comply with requirements.,Other,1.03-E.2
+TILING,09 30 00,Written Certification,Provide written certification that crack isolation membrane is approved for use with specified mortars.,Other,1.03-E.3
+TILING,09 30 00,Letter of Conformance,"In compliance with requirements of, and in format included in, Section 01 33 00.",Other,1.03-F
+TILING,09 30 00,Field-Constructed Mock-Up,"Before installing tile, erect mock-ups for each form of construction and pattern finish required to verify selections made under sample submittals and to demonstrate aesthetic effects and patterns as well as qualities of materials and execution. Build mock-ups before start of final installation. Include testing with the proposed maintenance equipment loads.
+1. Locate mock-ups on site in location and size of 10'-0"" by 10'-0"" in area directed by Architect/Interior Designer.
+2. Erect mock-ups in presence of Architect/Interior Designer.
+3. Demonstrate proposed range of aesthetic effects, patterns and workmanship. Mock-up should represent slab conditions.
+4. Obtain Architect/Interior Designer's acceptance of mock-ups before start of final installation.
+5. Retain and maintain mock-ups during construction in undisturbed condition as standard for judging completed Work.
+a. Accepted mock-ups in undisturbed condition at time of Substantial Completion may become part of completed Work.
+6. Dimensions: 10'-0"" by 10'-0""",Other,1.04-D
+FIBERGLASS REINFORCED PLASTIC PANELS,09 77 00,General,In compliance with Section 01 33 00 and as specified herein.,Other,1.02-A
+FIBERGLASS REINFORCED PLASTIC PANELS,09 77 00,Product Data,Manufacturer's written installation instructions.,Product Data,1.02-B
+FIBERGLASS REINFORCED PLASTIC PANELS,09 77 00,Shop Drawings,Indicate and dimension the location of joints and fastener attachments.,Shop Drawings,1.02-C
+FIBERGLASS REINFORCED PLASTIC PANELS,09 77 00,Samples,"Two approximately 8-inch by 10-inch samples of each type of panel, 10-inch length of each type of trim and molding fastener.",Samples,1.02-D
+HYDRAULIC ELEVATORS,14 24 23,Product Data,"Detail drawings of landing buttons, hall fixtures, car position indicators and car operating panels, car interior and hoistway doors and frames, and finishes.",Product Data,1.03-B
+HYDRAULIC ELEVATORS,14 24 23,Shop Drawings,"Submit Shop Drawings as complete package. Partial and piecemeal submittals will be returned unchecked. No fabrication shall commence until approval of Shop Drawings. 1. Clearly indicate car types and construction, hydraulic equipment, space requirements, complete dimensions, general arrangement of elevator equipment and installation requirements. 2. Show connections, attachments, reinforcing, anchorage and location of exposed fastenings, and location and amount of loads and reactions to be carried on building structure. 3. Indicate hoistway entrances; operation, construction, method of attachment to adjacent construction, sill type and method of attachment. 4. Elevations of car enclosures indicating interior walls and reflected ceiling plan, materials, finishes, colors, fabrication and construction details and location of items visible in finished Work. Include details or catalog cuts of lanterns, position indicators, car buttons and similar items.",Shop Drawings,1.03-C
+HYDRAULIC ELEVATORS,14 24 23,Samples,"Submit, at same time as Shop Drawings, following samples:
+1. Painted Metal Finish: Baked enamel finishes for car enclosures and entrances.
+2. Natural Metals: Minimum 6-inch square samples of stainless steel finish indicating texture and color to be expected in finished Work.
+3. Plastic Laminates: Minimum 8-inch x 10-inch samples indicating selected colors, patterns and textures.",Samples,1.03-D
+HYDRAULIC ELEVATORS,14 24 23,Wiring Diagrams,Submit complete as-built internal wiring diagrams for controller and elevator system.,As-Builts,1.03-E
+HYDRAULIC ELEVATORS,14 24 23,Certificates,"Reports, signed by elevator manufacturer, on in-place testing of elevators in conformity of Rules of ASME/CSA A17.1 with State of Georgia amendments. 1. Include certification that elevator hoistway doors, frames, hardware and accessories comply with specified fire rating requirements.",Test Reports,1.03-F
+HYDRAULIC ELEVATORS,14 24 23,Operating and Maintenance Manuals,"Prior to acceptance of elevators by Owner, provide three copies of operating instructions and maintenance guides for elevators and elevator equipment in compliance with Section 01 77 00 and as specified herein. Assemble data and bind in indexed, properly identified, hard covered three ring binders. 1. Include within manuals, complete maintenance instructions, including oiling, cleaning and servicing data, in clear, easily understood form.",O&M Manuals,1.03-G
+HYDRAULIC ELEVATORS,14 24 23,Letter of Conformance,"In compliance with requirements of, and in format included in, Section 01 33 00.",Other,1.03-H
+HYDRAULIC ELEVATORS,14 24 23,Maintenance Proposal,Submit proposal for maintenance of installed elevator work for period of five years after termination of regular maintenance required in Article 1.08 herein and in Section 14 01 00.,Other,1.09-A
+STATIONARY LOUVERS,23 37 14,Louver submittal,"Provide test data, using the AMCA 500-L wind-driven rain test, with louver submittal.",Test Reports,2.01-C
+STATIONARY LOUVERS,23 37 14,Shop drawings,Submit manufacturer's color charts with shop drawings for selection and approval (field painting will not be acceptable).,Shop Drawings,2.01-D
+STATIONARY LOUVERS,23 37 14,Submittals,"Submittals shall include louver data, louver sizes and intended locations. Coordinate exact sizes, locations and colors with Architect prior to ordering.",Product Data,3.01-F
+EXTERIOR LIGHTING,26 56 00,Letter of Conformance,"Submit ""Letter of Conformance"" in accordance with Section 01 33 00 indicating specified items selected for use in Project with the following supporting data:
+1. For each type of lighting unit indicated, arranged in order of lighting unit designation. Include data on features, accessories, finishes, and the following:
+a. Materials and dimensions of luminaires and poles.
+b. Certified results of laboratory tests for fixtures and lamps for photometric
+c. performance.
+d. High-intensity-discharge luminaire ballasts.
+e. Photometric data.",Other,1.03-A
+EXTERIOR LIGHTING,26 56 00,Shop Drawings,Shop Drawings: Anchor-bolt templates keyed to specific poles and certified by manufacturer.,Shop Drawings,1.03-A-2
+EXTERIOR LIGHTING,26 56 00,Maintenance Data,Maintenance Data: For lighting units to include in maintenance manuals specified in Division 01.,O&M Manuals,1.03-A-3
