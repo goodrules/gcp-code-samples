@@ -7,15 +7,13 @@ import tempfile
 import os
 import mimetypes
 from typing import Iterator
+import time
 
-PROJECT_ID = 'mg-ce-demos'
-REGION = 'us-central1'
+PROJECT_ID = 'mg-ce-demos' # change to your GCP project ID
+REGION = 'us-central1' # change to the appropriate region
 
 # Initialize Vertex AI
 vertexai.init(project = PROJECT_ID, location = REGION)
-
-# Initialize Gemini 1.5 Pro model
-model = vertexai.generative_models.GenerativeModel("gemini-1.5-pro-002")
 
 def process_uploaded_file(uploaded_file) -> Part:
     """Process uploaded file and convert to Gemini Part object."""
@@ -41,7 +39,12 @@ def process_uploaded_file(uploaded_file) -> Part:
     
     return Part.from_data(data=file_content, mime_type=mime_type)
 
-def stream_chat(chat_history: list, query: str, uploaded_part: Part = None) -> Iterator[str]:
+def stream_chat(
+    chat_history: list, 
+    query: str, 
+    uploaded_part: Part = None, 
+    model=vertexai.generative_models.GenerativeModel("gemini-2.0-flash-exp")
+) -> Iterator[str]:
     """Stream chat responses from Gemini."""
     # Initialize chat
     formatted_history = []
@@ -66,12 +69,25 @@ def stream_chat(chat_history: list, query: str, uploaded_part: Part = None) -> I
             yield chunk.text
 
 def main():
-    st.title("Gemini 1.5 Pro Chat")
+    st.title("Chat with Gemini")
 
     # Add clear history button in the sidebar
-    if st.sidebar.button("Clear Chat History"):
-        st.session_state.chat_history = []
-        st.rerun()
+    with st.sidebar:
+        model_name = st.selectbox(
+            "Select Gemini Model",
+            ["gemini-2.0-flash-exp", "gemini-1.5-pro-002", "gemini-1.5-flash-002"],
+            index=0
+        )
+        system_prompt = st.text_area("System Prompt (optional)")
+        if st.button("Clear Chat History"):
+            st.session_state.chat_history = []
+            st.rerun()
+
+    # Check if system prompt is empty
+    if len(system_prompt) > 0:
+        MODEL = vertexai.generative_models.GenerativeModel(model_name, system_instruction=system_prompt)
+    else:
+        MODEL = vertexai.generative_models.GenerativeModel(model_name)
     
     # Initialize session state for chat history
     if "chat_history" not in st.session_state:
@@ -105,9 +121,10 @@ def main():
             full_response = ""
             
             # Stream the response
-            for chunk in stream_chat(st.session_state.chat_history, user_input, uploaded_part):
+            for chunk in stream_chat(st.session_state.chat_history, user_input, uploaded_part, model=MODEL):
                 full_response += chunk
                 message_placeholder.markdown(full_response + "▌")
+                time.sleep(0.05)
             
             # Update final response
             message_placeholder.markdown(full_response)
