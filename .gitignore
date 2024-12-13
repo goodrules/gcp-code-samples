@@ -1,3 +1,5 @@
 .ipynb_checkpoints
 .DS_Store
 ai_ml/genai/fonts/
+ai_ml/genai/demo_data/
+ai_ml/genai/output_images/
