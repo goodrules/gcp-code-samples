@@ -11,17 +11,18 @@ anthropic_client = AnthropicVertex(region=REGION, project_id=PROJECT_ID)
 
 # Anthropic Model
 anthr_claude_sonnet35_v2 = "claude-3-5-sonnet-v2@20241022"
+anthr_claude_opus = "claude-3-opus"
 
 # Initialize session state for conversation history
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # Function to get response from Claude
-def get_claude_response(prompt):
+def get_claude_response(prompt, model=anthr_claude_sonnet35_v2, ):
     try:
         response = anthropic_client.messages.create(
-            model=anthr_claude_sonnet35_v2,
-            max_tokens=1024,
+            model=model,
+            max_tokens=4000,
             temperature=0.5,
             system = "",
             messages = st.session_state.messages
@@ -32,6 +33,23 @@ def get_claude_response(prompt):
 
 # Streamlit app
 st.markdown("<h1 style='color:firebrick'>Claude on Vertex Chatbot</h1>",unsafe_allow_html=True)
+
+# Add clear history button in the sidebar
+with st.sidebar:
+    st.markdown("# <div style='color:firebrick'>About</div>",unsafe_allow_html=True)
+    st.markdown("### A simple chatbot using the Anthropic API to interact with Claude.")
+    st.markdown("""<div style='color:darkslategrey;font-size:smaller'>
+    Streamlit app using version 3.5 of Claude Sonnet and version 3 of Claude Opus.""",
+    unsafe_allow_html=True
+    )
+    model_name = st.selectbox(
+        "Select Claude Model",
+        [anthr_claude_sonnet35_v2, anthr_claude_opus],
+        index=0
+    )
+    if st.button("Clear Chat History"):
+        st.session_state.messages = []
+        st.rerun()
 
 # Display chat messages
 for message in st.session_state.messages:
@@ -48,20 +66,9 @@ if prompt := st.chat_input("What would you like to ask Claude?"):
     # Get Claude's response
     with st.chat_message("assistant"):
         message_placeholder = st.empty()
-        full_response = get_claude_response(prompt)
+        full_response = get_claude_response(prompt, model_name)
         message_placeholder.write(full_response)
     
     # Add Claude's response to chat history
     st.session_state.messages.append({"role": "assistant", "content": full_response})
-
-# Sidebar with information
-
-with st.sidebar:
-    st.markdown("# <div style='color:firebrick'>About</div>",unsafe_allow_html=True)
-    st.markdown("### A simple chatbot using the Anthropic API to interact with Claude.")
-    st.markdown("""<div style='color:darkslategrey;font-size:smaller'>
-    The app demonstrates basic usage of Streamlit for creating interactive chat interfaces.<br/>
-    We are using version 3.5 of Claude Sonnet, which is in the misddle of the Claude range.<br/>
-    The other Claude models are Haiku, (less capable but cheaper version), and Opus (more expensive and more powerful).</div>""",
-    unsafe_allow_html=True
-    )
+    
