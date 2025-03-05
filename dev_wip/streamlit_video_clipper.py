@@ -135,7 +135,7 @@ def main():
     with st.sidebar:
         model_name = st.selectbox(
             "Select Gemini Model",
-            ["gemini-2.0-flash-exp", "gemini-1.5-pro-002", "gemini-1.5-flash-002"],
+            ["gemini-2.0-flash-001", "gemini-2.0-pro-exp-02-05", "gemini-2.0-flash-lite-preview-02-05"],
             index=0
         )
         system_prompt = st.text_area("System Prompt (optional)")
