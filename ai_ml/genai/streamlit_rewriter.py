@@ -10,8 +10,8 @@ PROJECT_ID = "mg-ce-demos"
 REGION = "us-central1"
 
 # Gemini Models
-gemini15_multimodal = vertexai.generative_models.GenerativeModel("gemini-1.5-pro-002")
-gemini_flash = vertexai.generative_models.GenerativeModel("gemini-1.5-flash-002")
+#gemini15_multimodal = vertexai.generative_models.GenerativeModel("gemini-1.5-pro-002")
+gemini_flash = vertexai.generative_models.GenerativeModel("gemini-2.0-flash-001")
 
 # Page config
 st.set_page_config(

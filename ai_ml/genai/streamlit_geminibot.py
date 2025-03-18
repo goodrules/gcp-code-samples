@@ -43,7 +43,7 @@ def stream_chat(
     chat_history: list, 
     query: str, 
     uploaded_part: Part = None, 
-    model=vertexai.generative_models.GenerativeModel("gemini-2.0-flash-exp")
+    model=vertexai.generative_models.GenerativeModel("gemini-2.0-flash-001")
 ) -> Iterator[str]:
     """Stream chat responses from Gemini."""
     # Initialize chat
@@ -75,7 +75,7 @@ def main():
     with st.sidebar:
         model_name = st.selectbox(
             "Select Gemini Model",
-            ["gemini-2.0-flash-exp", "gemini-1.5-pro-002", "gemini-1.5-flash-002"],
+            ["gemini-2.0-flash-001", "gemini-2.0-pro-exp"],
             index=0
         )
         system_prompt = st.text_area("System Prompt (optional)")
